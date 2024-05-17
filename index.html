@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta e Salvamento de CEP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Consulta de CEP</h1>
+    </header>
+    <div class="container">
+        <div class="form-group">
+            <input type="text" id="cep-input" placeholder="Digite o CEP">
+            <button id="consultar-btn">Consultar</button>
+        </div>
+        <div class="result" id="result">
+        </div>
+        <button id="salvar-btn" disabled>Salvar no Local Storage</button>
+        <div class="saved-addresses" id="saved-addresses">
+            <h2>Endereços Salvos</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
